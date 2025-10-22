@@ -2,6 +2,8 @@
 
 A simple command-line tool to archive logs on a Unix-based system by compressing them and storing them in a new directory. This is useful for removing old logs to keep the system clean while maintaining compressed copies for future reference. This project is a great way to practice shell scripting, working with files and directories, and building CLI tools.
 
+*Project from: https://roadmap.sh/projects/log-archive-tool* 
+
 ---
 
 ## Features
