@@ -1,0 +1,15 @@
+#! /bin/bash
+
+dir=$1
+
+if [ -d "$dir" ]; then
+
+ date=$(date +%F | sed 's/-/''/g')
+ time=$(date +%T | sed 's/:/''/g')
+ name=$"logs_archive_${date}_${time}.tar.gz"
+
+ tar zcvf ${name} $1
+
+else
+ echo "$dir isn't a valid directory!"
+fi
